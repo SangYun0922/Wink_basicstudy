@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <style>
+    body{
+
+      background-color: white;
+    }
+    header {
+      display: flex;
+      height:100px;
+      align-items: center;
+      background-color:white;
+      color: black;
+
+    }
+    #Global_Name {
+      font-family: "Cambria Math";
+      font-size: 50px;
+      margin-left: 30px;
+      margin-right: 50px;
+    }
+
+    #sub_Name {
+      font-family: "Cambria Math";
+      font-size: 20px;
+      margin-left: 30px;
+      margin-right: 50px;
+    }
+
+    .btn_package {
+      margin-left: 900px;
+    }
+
+    .dropbtn {
+      font-family: "Cambria Math";
+      background-color: white;
+      color: black;
+      padding: 16px;
+      font-size: 20px;
+      border: none;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: black;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: black;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {
+      background-color: black;
+      color: white
+    }
+
+
+
+    nav {
+      font-size: 40px;
+      margin: 0 auto;
+      height:100px;
+      color: white;
+      align-content: center;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    a:link { color: white; text-decoration: none;}
+    a:visited { color: white; text-decoration: none;}
+    a:hover { color: white; text-decoration: underline;}
+    a:hover, a:active { text-decoration: none; }
+
+    #footer{
+      position:fixed;
+      bottom:0;
+      width:100%;
+      background-color: black;
+    }
+
+    .footer_txt{
+      font-family: AppleGothic;
+      height: 50px;
+      margin-top: 50px;
+      text-align: center;
+      color : #FFFFFF;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div id="Global_Name"> SangYoon's </div>
+  <div id="sub_Name"> photographer | guitarist </div>
+
+  <div class = "btn_package">
+    <div class="dropdown">
+      <button class="dropbtn">biography</button>
+      <div class="dropdown-content">
+        <a href="#">School</a>
+        <a href="#">Major</a>
+        <a href="#">More</a>
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+      <button class="dropbtn">artwork</button>
+      <div class="dropdown-content">
+        <a href="#">night view</a>
+        <a href="#">portrait shot</a>
+        <a href="#">Scenery shot</a>
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+      <button class="dropbtn">gears</button>
+      <div class="dropdown-content">
+        <a href="#">guitar</a>
+        <a href="#">camera</a>
+        <a href="#">ETC</a>
+      </div>
+    </div>
+  </div>
+
+
+</header>
+
+<nav>
+  <div id = "img1">
+    <img src="hw4_src/image1.jpg" width="800" height="800" />
+  </div>
+  <div id = "img2">
+    <img src="hw4_src/image5.PNG" height="326" width="596"/></div>
+  <div id = "img3">
+    <img src="hw4_src/image6.PNG" height="340" width="596"/></div>
+  <div id = "img4">
+    <img src="hw4_src/image7.PNG" height="352" width="596"/></div>
+  <div id = "img5">
+    <img src="hw4_src/image8.PNG" height="584" width="335"/></div>
+</nav>
+<footer>
+  <div id="footer">
+    <p class="footer_txt">
+      Copyright © SangYoon's Website 2021</p>
+  </div>
+</footer>
+</body>
+</html>
